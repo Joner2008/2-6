@@ -1,6 +1,6 @@
 basic.forever(function () {
     if (10 > input.temperature()) {
-        basic.showIcon(IconNames.Square)
+        basic.showIcon(IconNames.Chessboard)
         music.setVolume(58)
         music.startMelody(music.builtInMelody(Melodies.Blues), MelodyOptions.Once)
     }
